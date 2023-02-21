@@ -15,7 +15,8 @@
         android:theme="@style/Theme.WarmerColder">
 
         <activity android:name=".MainActivity"
-            android:foregroundServiceType="location">
+            android:foregroundServiceType="location"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -26,7 +27,8 @@
             android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
-            android:theme="@style/Theme.WarmerColder.Fullscreen">
+            android:theme="@style/Theme.WarmerColder.Fullscreen"
+            android:exported="true">
 
         </activity>
     </application>

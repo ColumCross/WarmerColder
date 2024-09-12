@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     defaultConfig {
         applicationId "com.columcross.warmercolder"
         minSdkVersion 26
-        targetSdkVersion 33
-        versionCode 3
-        versionName "3"
+        targetSdkVersion 34
+        versionCode 4
+        versionName "4"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -25,6 +25,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+    namespace 'com.columcross.warmercolder'
 }
 
 dependencies {
